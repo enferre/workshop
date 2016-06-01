@@ -1,0 +1,7 @@
+-plugin: \
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name=Local; \
+		local=${workspace}/cnf/local; \
+		pretty=true\
+
+-releaserepo: Release
