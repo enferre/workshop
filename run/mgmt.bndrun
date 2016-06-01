@@ -1,0 +1,33 @@
+aiolos.version='[0.6.0,0.7.0)'	
+
+-include:base.bndrun
+	
+-runbundles.aiolos: \
+	org.apache.felix.fileinstall;version='[3.5.0,3.6.0)',\
+	org.apache.felix.http.api;version='[3.0.0,3.0.1)',\
+	org.apache.felix.http.jetty;version='[3.1.0,3.1.1)',\
+	org.apache.felix.http.servlet-api;version='[1.1.2,1.1.3)',\
+	com.googlecode.json-simple;version='[1.1.1,1.1.2)',\
+	kxml;version='[2.2.2,2.2.3)',\
+	jslp;version='[1.0.0,1.0.1)',\
+	org.objenesis;version='[2.1,2.2)',\
+	com.esotericsoftware.kryo;version='[2.23,2.24)',\
+	de.javakaffee.kryo-serializers;version='[0.23,0.24)',\
+	be.iminds.aiolos.remoteserviceadmin;version=${aiolos.version},\
+	be.iminds.aiolos.nodemonitor;version=${aiolos.version},\
+	be.iminds.aiolos.servicemonitor;version=${aiolos.version},\
+	be.iminds.aiolos.deploymentmanager;version=${aiolos.version},\
+	be.iminds.aiolos.topologymanager;version=${aiolos.version},\
+	be.iminds.aiolos.proxymanager;version=${aiolos.version},\
+	be.iminds.aiolos.discovery;version=${aiolos.version},\
+	be.iminds.aiolos.repository.http;version=${aiolos.version},\
+	be.iminds.aiolos.cloudmanager.local;version=${aiolos.version},\
+	be.iminds.aiolos.platformmanager;version=${aiolos.version},\
+	be.iminds.aiolos.demo;version=${aiolos.version}
+
+-runproperties.aiolos:\
+	felix.fileinstall.dir=resources
+	rsa.interface=wlan0
+	
+-runsystempackages.aiolos:\
+	sun.reflect		
