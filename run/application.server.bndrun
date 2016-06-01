@@ -2,5 +2,4 @@
 -include:base.bndrun,aiolos.bndrun
 
 -runbundles.app:\
-	be.iminds.workshop.experimenter.api,\
 	be.iminds.workshop.experimenter.provider
