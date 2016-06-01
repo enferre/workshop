@@ -1,0 +1,6 @@
+-buildpath: \
+	osgi.enroute.base.api,\
+	be.iminds.workshop.experimenter.api;version=latest
+Bundle-Version: 1.0.0
+Private-Package: be.iminds.workshop.experimenter.client.cli
+Bundle-Name: Experimenter client CLI
