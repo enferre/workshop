@@ -1,0 +1,3 @@
+Bundle-Version: 1.0.0
+Export-Package: be.iminds.workshop.experimenter.api
+Bundle-Name: Experimenter API
