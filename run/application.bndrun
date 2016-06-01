@@ -1,0 +1,6 @@
+
+-include:base.bndrun
+
+-runbundles.app:\
+	be.iminds.workshop.experimenter.provider,\
+	be.iminds.workshop.experimenter.client.cli
