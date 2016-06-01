@@ -1,0 +1,7 @@
+-buildpath: \
+	be.iminds.workshop.experimenter.api;version=latest,\
+	osgi.enroute.base.api
+Bundle-Version: 1.0.0
+Private-Package: be.iminds.workshop.experimenter.provider
+Export-Package: be.iminds.workshop.experimenter.api
+Bundle-Name: Experimenter provider
