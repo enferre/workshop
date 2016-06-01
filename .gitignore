@@ -1,0 +1,6 @@
+/.recommenders/
+/.metadata/
+/generated/
+/cnf/local/
+/cnf/release/
+/cnf/cache/
